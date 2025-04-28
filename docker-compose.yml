@@ -1,6 +1,7 @@
 version: '3.4'
 
 services:
+  #TODO Update the rubytemplate service to match the project
   rubytemplate:
     image: rubytemplate
     build:

@@ -1,6 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-docker-compose
 {
+	// TODO Update the project name
 	"name": "Ruby Project Template",
 
 	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
@@ -12,6 +13,7 @@
 
 	// The 'service' property is the name of the service for the container that VS Code should
 	// use. Update this value and .devcontainer/docker-compose.yml to the real service name.
+	// TODO Update the service name.
 	"service": "rubytemplate",
 
 	// The optional 'workspaceFolder' property is the path VS Code should open by default when

@@ -1,5 +1,6 @@
 FROM ruby:3.4
 
+# TODO Update label for the project.
 LABEL Name=rubytemplate Version=0.1.0
 
 EXPOSE 3000
