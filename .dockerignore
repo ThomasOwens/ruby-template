@@ -1,25 +1,27 @@
-**/.classpath
-**/.dockerignore
-**/.env
-**/.git
-**/.gitignore
-**/.project
-**/.settings
-**/.toolstarget
-**/.vs
-**/.vscode
-**/*.*proj.user
-**/*.dbmdl
-**/*.jfm
-**/bin
-**/charts
-**/docker-compose*
-**/compose*
-**/Dockerfile*
-**/node_modules
-**/npm-debug.log
-**/obj
-**/secrets.dev.yaml
-**/values.dev.yaml
-LICENSE
-README.md
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose*
+Dockerfile*
+
+# Ignore development environment files
+.vscode/
+.vs/
+*.user
+
+# Ignore dependency directories
+node_modules/
+vendor/bundle/
+
+# Ignore temporary files
+*.log
+tmp/
+*.bak
+*.swp
+
+# Ignore build artifacts
+bin/
+obj/
